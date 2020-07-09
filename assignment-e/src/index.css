@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  padding:0;
+  margin:0;
+  display: block;
+  background-image: url("background.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+}
+
+h1{
+  font-size:64px;
+  font-weight: 900;
+  text-align:center;
+  text-shadow:2px 2px 2px rgba(0, 0, 0, 0.219);
+  color:#226ccc;
+}
+
+input[type=text],input[type=password],input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid rgb(185, 185, 185);
+  
+}
+
+.container {
+  width:50%;
+  border-radius: 2px;
+  box-shadow:2px 8px 10px 2px rgba(0, 0, 0, 0.178);
+  background-color: #fffdfdef;
+  padding: 7%;
+  margin:0 auto;
+  background-position:fixed;
+  
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  width:40%;
+}
+
+button[type=submit] {
+  background-color: #5066c5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100%
+}
+
+button[type=submit]:hover{
+  background-color: #384a97;
+  box-shadow:inset 2px 2px 2px rgba(0, 0, 0, 0.089)
+}
+
+ul {
+  list-style-type: none;
+  top:0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(134, 134, 134);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #226ccc;
+}
+
+.active {
+  background-color: #4CAF50;
+}
